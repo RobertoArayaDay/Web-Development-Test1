@@ -1,0 +1,87 @@
+html { 
+  background: url(../background2.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 60px;
+	color: aquamarine;
+	text-align: center;
+
+	margin-top: 3px;
+	margin-bottom: 3px;
+} 
+
+h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	color: slateblue;
+
+	border: 2px solid tomato;
+
+
+	margin: 3px;
+} 
+
+h3 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 25px;
+	color: #b5e7a0;
+	margin: 3px;
+	margin-left: 40px;
+} 
+
+ul li{
+	font-family: "Times New Roman", Times, serif;
+	font-size: 25px;
+	color: #feb236;
+	margin: 3px;
+	margin-left: 40px;
+} 
+
+ul li:nth-child(2){
+	color: #b5e7a0
+} 
+
+ul li:nth-child(3){
+	color: #d5f4e6
+}
+
+#cocadesc {
+	display: block;
+	background-color: #d64161;
+	margin: auto;
+	margin-bottom: 20px;
+    width: 50%;
+
+}
+
+#desc{
+	font-family: "Times New Roman", Times, serif;
+	font-size: 25px;
+	color: white;
+	text-align: center;
+}
+
+
+img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#another_page {
+	background-color: #d64161;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 25px;
+	width: 80%;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: white;
+}
